@@ -1,0 +1,109 @@
+/*font-family:'Playfair Display',sans-serif*/
+/*font-family: 'Ubuntu', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:'Playfair Display',sans-serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	/*border: 1px solid black;*/
+	padding: 25px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 3px;
+	width: 13%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{ 
+	margin: 0 50px;
+	padding: 10px 0;
+	color:#626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: .3s;
+	border: 1px solid transparent;
+}
+.menu ul li:last child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid  #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{
+	width: 100%;
+} 
+.newsletter{
+	padding: 60px 0px;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+.newsletter h2{
+	margin-bottom: 40px;
+}
+.n_form form{
+   	width: 40%;
+   	margin: 0 auto;
+   	position: relative;
+}
+
+.n_form form input{
+	margin: 0 auto;
+    padding: 15px 8px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #7777;
+    width: 70%;
+    display: block;
+}
+
+.n_form form input:focus{
+	
+	outline: 0;
+
+}
+
+.n_form form button{
+	position: absolute;
+	right: 65px;
+	top: 15px;
+	border: 0;
+}
+
+
+
+
+
+.submit{
+	
+}
+/*banner end*/
